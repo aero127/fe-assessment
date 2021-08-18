@@ -1,0 +1,30 @@
+.slider, .single-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-arrow, .right-arrow {
+    font-size: 3rem;
+}
+
+.products-container {
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.products-container img {
+    max-width: 800px;
+}
+
+.colored-circle {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    height: 8px;
+    width: 8px;
+}

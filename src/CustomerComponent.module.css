@@ -1,0 +1,27 @@
+.customer-container {
+    font-size: 30px;
+    /*bottom: 10px;*/
+    width: 760px;
+    /*left: 50px;*/
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    margin-bottom: 30px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.toggle-icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    position: absolute;
+    left: 75px;
+}
+
+.icon-container{
+    position: relative;
+}

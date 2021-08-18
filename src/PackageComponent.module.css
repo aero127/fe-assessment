@@ -1,0 +1,64 @@
+.packages-map-container {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    /*bottom: 10px;*/
+    width: 700px;
+    /*left: 50px;*/
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    margin-bottom: 30px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.title-content {
+    position: relative;
+    /*margin: 10px;*/
+    color: grey;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.second-line {
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+}
+
+.component-wrapper {
+}
+
+.icon-container{
+    position: relative;
+}
+
+.toggle-icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    position: absolute;
+    left: 75px;
+}
+.tracking-link {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.package-trace button{
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: lightgray;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.package-trace a {
+    text-decoration: none;
+    color: black;
+}
